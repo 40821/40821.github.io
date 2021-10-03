@@ -1,11 +1,10 @@
-=== Twenty Twenty ===
 Contributors: the WordPress team
 Tested up to: 5.8
 Stable tag: 1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Default theme for 2020.
+Default theme for 2021.
 
 == Description ==
 
