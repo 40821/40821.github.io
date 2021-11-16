@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>OULEI的窝</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+</head>
+<body background-image="bizhi.gif">
+
+ 
+  <div
+    style="background-color: black;;height:40px;width:100％;">
+    <a href="index.html" style="font-weight: 300;font-size: 30px;color: rgb(136, 136, 136);;">《返回 </a>
+  </div>
+  <script>
+    function check(){
+    var name=document.getElementById("name").value;
+    var pass=document.getElementById("pass").value;
+    
+    if(name=="oulei" && pass=="yyds")
+    {
+    alert("登入成功");
+    window.document.f.action="https://www.baidu.com/";
+    window.document.f.submit();
+    }else{
+    alert("用户名或密码错误");
+    }
+    }
+</script>
+<div style="text-align: center;font-size: 100px;">
+    <form name="f" action="">
+    用户名:<INPUT TYPE="text" NAME="" id="name" style="height: 70px;width: 500px;"><br>
+    密码:<INPUT TYPE="password" NAME="" id="pass" style="height: 70px;width: 500px;"><br>
+    <INPUT TYPE="button" value="登入" onclick=check() style="height: 70px;width: 500px;text-align: ;"><INPUT TYPE="reset" value="重置" style="height: 70px;width: 500px;">
+    </form>
+    </div>
+
+  </body>
+  </html>
+   
+ </body>
